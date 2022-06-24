@@ -1,30 +1,40 @@
-.body{
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     align-items: center;
 }
+
 /* navbar begins */
 
-.navbar{
+.navbar {
     background-color: white;
     padding: 0 0 0;
-    
-   
-    
+
+
+
 }
-.navbar-img{
+
+.navbar-img {
     padding-bottom: 10px;
     margin-left: 2.5rem;
 }
-.n-brand{
-      margin-left: 1.5rem;
-      color: #357C3C;
-      padding-top: 11px;
-         font-family: 'EB Garamond', sans-serif;;
-         font-size: 2.5rem;
+
+.n-brand {
+    margin-left: 1.5rem;
+    color: #357C3C;
+    padding-top: 11px;
+    font-family: 'EB Garamond', sans-serif;
+    ;
+    font-size: 2.5rem;
 }
-.navbar-nav{
+
+.navbar-nav {
     margin-right: 20px;
 }
-.nav-link{
+
+.nav-link {
     color: #B2B1B9;
     font-family: 'Domine', serif;
 }
@@ -33,7 +43,7 @@
 
 /* home begins */
 
-#home{
+#home {
     width: 100%;
     padding: 0 7%;
     display: table;
@@ -46,119 +56,136 @@
     height: 100vh;
 }
 
-.h-element{
+.h-element {
     float: right;
     margin-top: 120px;
     font-family: 'Itim';
-    color:#357C3C;
-    
+    color: #357C3C;
+
 }
-.home-para{
+
+.home-para {
     margin-top: 30px;
     line-height: 7px;
     color: #92A9BD;
     margin-bottom: 25px;
 }
+
 /* home ends */
 
 /* products start */
-#products{
+#products {
     text-align: center;
     padding: 1% 20%;
 }
-.product-row{
+
+.product-row {
     padding-bottom: 20px;
 }
-h3{
+
+h3 {
     padding-top: 90px;
     text-align: center;
     font-family: 'Itim';
-    color:#357C3C;
+    color: #357C3C;
 
 }
-.card{
-    
+
+.card {
+
     margin-top: 20px;
     padding-bottom: 10px;
     align-items: center;
     font-family: 'Itim';
-    color:#357C3C;
+    color: #357C3C;
     width: 13rem;
     line-height: 7px;
 }
-.product-img{
+
+.product-img {
     height: 150px;
     width: 150px;
 }
-.s-price{
+
+.s-price {
     padding-right: 11px;
     text-decoration: line-through;
     font-size: 14px;
     color: #D1D1D1;
 }
-.r-price{
+
+.r-price {
     padding-left: 11px;
     font-size: 14px;
     color: #92A9BD;
 }
-.product-icon{
+
+.product-icon {
     margin: 0 5px 0;
     border-style: groove;
     border-radius: 3px;
 }
-.pro-imgicon{
+
+.pro-imgicon {
     height: 15px;
     width: 15px;
 }
-.icon-row{
+
+.icon-row {
     padding-bottom: 5px;
 }
 
 /* products ends */
 
- /* about section  starts*/
+/* about section  starts*/
 
-#about{
+#about {
     padding: 0.5% 15%;
 }
-.ab-row{
+
+.ab-row {
     padding-top: 50px;
-    
+
 }
-.adiv-row{
+
+.adiv-row {
     padding-left: 60px;
     width: 564px;
     float: right;
     margin-top: 10px;
-    color: #B2B1B9;;
+    color: #B2B1B9;
+    ;
     font-family: 'Itim';
-   
+
 }
-h5{
+
+h5 {
     text-align: center;
     font-family: 'Itim';
-    color:#357C3C;
+    color: #357C3C;
 }
-.ab-btn{
+
+.ab-btn {
     border-radius: 1em;
-    background-color:#D8D2CB;
+    background-color: #D8D2CB;
     font-family: 'Itim';
     color: #fff;
 }
-.ab-btn:hover{
+
+.ab-btn:hover {
     background-color: #92A9BD;
 }
 
- /* about section ends  */
+/* about section ends  */
 
- /* service section starts  */
+/* service section starts  */
 
- #service{
+#service {
     text-align: center;
     padding: 1% 20%;
- }
+}
 
-.ser-card{
+.ser-card {
     align-items: center;
     font-family: 'Itim';
     color: #B2B1B9;
@@ -167,82 +194,158 @@ h5{
     margin-top: 30px;
 }
 
-.service-icon{
+.service-icon {
     height: 40px;
     width: 40px;
     margin-bottom: 10PX;
 }
-h6{
+
+h6 {
     font-family: 'Itim';
-    color:#357C3C;
+    color: #357C3C;
 }
 
 
- /* service section ends  */
+/* service section ends  */
 
- /* review section starts  */
- #review{
-     background-color: #D1D1D1;
-     padding-bottom: 2rem;
-     
- }
- .carousel{
+/* review section starts  */
+#review {
+    background-color: #D1D1D1;
+    padding-bottom: 2rem;
+
+}
+
+.carousel {
     padding: 0 15%;
     margin-top: 2rem;
-   
-    
- }
- .active{
-     padding: 0 5rem;;
- }
 
- .review-image{
-     height: 8rem;
-     width: 8rem;
-     border-radius: 5rem;
-     margin-left: 10rem;
-     margin-right: 2rem;
- }
-em{
-     color:#1C658C;
- }
 
- .rev-para{
+}
+
+.active {
+    padding: 0 5rem;
+    ;
+}
+
+.review-image {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 5rem;
+    margin-left: 10rem;
+    margin-right: 2rem;
+}
+
+em {
+    color: #1C658C;
+}
+
+.rev-para {
     font-family: 'Itim';
-    color:#1C658C;
- }
-
-
- /* review section ends  */
-
- /* contact section start */
- #contact{
-     padding: 2% 15%;
- }
- .cont-card{
-     width: 800px;
- }
-.cont-img{
-    height: 410px;
-    width: 400px;
-    margin-top: 5px;
-    margin-right: 105px;
+    color: #1C658C;
 }
-.cont-form{
-    float: right;
+
+
+/* review section ends  */
+
+/* contact section start */
+#contact {
+    padding: 6% 15%;
+    background-color: #36AE7C;
+    color: #fff;
 }
- /* contact section ends  */
- #footer{
-     padding: 2% 0%;
-     text-align: center;
-     background-color: #EEEEEE;
- }
- ::-webkit-scrollbar{
-     
-     border-radius: 10px;
-     width: 9px;
- }
- ::-webkit-scrollbar-thumb{
+
+.contact-Rw {
+    text-align: center;
+
+}
+
+.cd {
+    color: #fff;
+}
+
+.vg {
+    color: #fff;
+}
+
+.contact-rw {
+    margin-top: 3rem;
+}
+
+.ct-icon-rw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ct-img {
+    height: 35px;
+    width: 35px;
+    margin-inline: 10px;
+}
+
+.footer {
+    padding: 1% 15%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+
+    color: #5463FF;
+
+}
+
+form {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    border-radius: 10px;
+}
+
+form input,
+form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 15px;
+    background-color: #36AE7C;
+    width: 150px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    outline: none;
+    border: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: green;
+    color: #fFF;
+}
+
+
+
+
+/* contact section ends  */
+#footer {
+    padding: 2% 0%;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+::-webkit-scrollbar {
+
+    border-radius: 10px;
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
     background-color: #357C3C;
     border-radius: 10px;
- }
+}
